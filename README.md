@@ -40,7 +40,7 @@ export const WHITELIST_CONTRACT_ADDRESS = "YOUR_WHITELIST_CONTRACT_ADDRESS";
 export const abi = YOUR_ABI;
 ```
 
-and replace replace `"YOUR_WHITELIST_CONTRACT_ADDRESS"` with the address of the whitelist contract that you deployed. If the structure of the smart contract is different from the one in the hardhat project, you need to replace `YOUR_ABI` as well. To get the ABI for your contract, go to your `hardhat-tutorial/artifacts/contracts/Whitelist.sol` folder and from your `Whitelist.json` file get the array marked under the `"abi"` key.
+and replace replace `"YOUR_WHITELIST_CONTRACT_ADDRESS"` with the address of the whitelist contract that you deployed. If the structure of your smart contract is different from the one in the hardhat project, you need to replace `YOUR_ABI` as well. To get the ABI for your contract, go to your `hardhat-tutorial/artifacts/contracts/Whitelist.sol` folder and from your `Whitelist.json` file get the array marked under the `"abi"` key.
 
 Now in your terminal which is pointing to `my-app` folder, execute:
 
